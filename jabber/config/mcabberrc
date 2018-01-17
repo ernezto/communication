@@ -1,0 +1,10 @@
+set server = thoughtworks.com
+set ignore_self_presence = 1
+set tls = 1
+set logging = 1
+set load_logs = 1
+set logging_dir = ~/.mcabber/history/
+set log_muc_conf = 1
+set iq_version_hide_os = 0
+set otr = 1
+otrpolicy default opportunistic
