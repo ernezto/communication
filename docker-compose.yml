@@ -3,9 +3,8 @@ services:
   jabber:
     container_name: jabber
     image: jabber
+    tty: true
     volumes:
       - ./jabber/config:/root/.mcabber
     command: /bin/sh -c 'tail -f /dev/null'
-    stdin_open: true
-    tty: true
 
