@@ -4,7 +4,11 @@ services:
     container_name: jabber
     image: jabber
     tty: true
+    stdin_open: true
+    environment:
+      - TERM=xterm-256color
     volumes:
       - ./jabber/config:/root/.mcabber
-    command: /bin/sh -c 'tail -f /dev/null'
+    command: /bin/sh -c 'mcabber'
+    # command: /bin/sh -c 'tail -f /dev/null'
 

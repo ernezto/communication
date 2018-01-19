@@ -32,7 +32,7 @@ set color_rosterselmsg = red
 set color_rosternewmsg = red
 set color_readmark     = green
 
-# color roster * * 64
+# color roster * * green
 # color roster adn * white
 
 # vim:set ft=conf:
